@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body { background-color: #332C22;
+    font-family: sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+h1 {color: #DB8100;}
+h2 {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+    
+}
+
+mark{ background-color: #B1731D;
+color: aliceblue;}
+
+h3 {
+    font-size: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+   

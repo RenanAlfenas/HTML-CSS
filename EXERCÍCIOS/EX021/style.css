@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "android";
+    src: url("fontes/idroid.otf") format("opentype")
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+header {
+    background-image: linear-gradient(to top, #1E6A40,#39CB79);
+    margin: -8px;
+    color: white; 
+    font-family: "fonte" Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display:block;
+    font-family: "Bebas Neue", sans-serif;
+    
+
+    
+    
+}
+.cab {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: none;
+    font-family: "Bebas Neue", sans-serif;
+    
+    
+
+}
+
+.linkcab {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    
+    
+}
+
+header > .linkcab:hover {
+    text-decoration: underline;
+    
+}
+
+body {
+   background-color: #39cb7885 ;
+}
+
+main {
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: -22px;
+    display: block;
+}
+
+.man { 
+    padding-top: 20px;
+    padding-left: 10px;
+    font-family: "android";
+    color: #1E6A40;
+}
+
+p {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.hman {
+    font-family: "android";
+    color: #1E6A40;
+    padding-left: 10px;
+    background-image: linear-gradient(to right, #97c3ab79, white);
+    margin-left: 10px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    
+  
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    border: 50px solid #1E6A40;
+    width: 400px;
+    
+
+}
+
+h3{
+    color: white;
+    background-color: #39CB79;
+    margin: 10px;
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+    
+}
+
+div {
+    background-color: #39cb788a;
+    margin-top: -16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: -10px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.116);
+    
+}
+
+footer {
+    background-color: #0d2e1c;
+    color: white;
+    padding: -20px;
+   
+
+}
+
+h4 {
+    text-align: center;
+    margin: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

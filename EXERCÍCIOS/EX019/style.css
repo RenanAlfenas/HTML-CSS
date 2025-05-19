@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(248, 221, 187);
+    text-align: center;
+}
+div {
+    background-color: antiquewhite;
+    width: 800px;
+    
+
+
+}
+div#d3:hover {
+    background-color: aqua;
+    color: brown;
+}
+div>p {
+    display: none;
+}
+div#d3:hover > p {
+    display:block ;
+    background-color: blue;
+    color: aliceblue;
+
+}
+
+div#d2:hover{
+    color: green;
+}
+
+div#d2:hover > p {
+    display: block;
+    color: blue;
+    background-color: brown;
+}
+
+div#d1:hover {
+    background-color: aqua;
+    text-decoration: underline;
+}
+
