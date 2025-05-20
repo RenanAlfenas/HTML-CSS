@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagem de fundo</title>
+
+    <style>
+        h1 {
+            background-color: rgba(216, 191, 216, 0.308);
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-style: italic;
+            font-weight: lighter;
+            font-size: 3em;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.404);
+        }
+
+        div.quadrado {
+            border: 2px solid rgb(255, 255, 255);
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            border-radius: 20px;
+        }
+
+        div#q1 {
+            background-color: skyblue;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to bottom, yellow, red );
+        }
+
+        div#q3 { 
+            background-image: url("imagens/wallpaper003.jpg");
+            
+        }
+
+        body {
+
+            background-image: url("imagens/wallpaper002.jpg");
+            background-size: 1000px 1000px;
+             }
+    </style>
+</head>
+<body>
+    <h1>Usando uma imagem como fundo do site</h1>
+
+    <div class="quadrado" id="q1">
+
+    </div>
+
+    <div class="quadrado" id="q2">
+
+    </div>
+
+    <div class="quadrado" id="q3">
+
+    </div>
+    
+</body>
+</html>
