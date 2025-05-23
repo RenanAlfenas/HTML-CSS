@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela complexa</title>
+    <style>
+
+        table {
+            border-collapse: collapse ;
+            width: 500px;
+            height: 150px;
+        }
+
+
+        
+        thead{
+            text-align: center;
+            font-weight: bold;
+            background-color: rgba(128, 128, 128, 0.624);
+            color: white;
+        }
+
+        td,th {
+            border: 2px solid black;
+        }
+
+        .numero, .porcentagem {
+            text-align: right;
+        }
+
+        tfoot {
+            font-weight: bold;
+            background-color: rgba(128, 128, 128, 0.622);
+        }
+
+        tbody > tr:nth-child(3n) {
+            background-color: aquamarine;
+        }
+    
+      
+    
+
+
+    </style>
+</head>
+<body>
+    <h1>POPULAÇÃO BRASILEIRA POR ESTADOS</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ESTADOS</th>
+                <th>POPULAÇÃO</th>
+                <th>% DO TOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="sp">SÃO PAULO</td>
+                <td class="numero">45 973 194</td>
+                <td class="porcentagem">21,63%</td>
+            </tr>
+
+            <tr>
+                <td id="mg">MINAS GERAIS</td>
+                <td class="numero">21 322 691</td>
+                <td class="porcentagem">10,03%</td>
+            </tr>
+
+            <tr>
+                <td id="rj">RIO DE JANEIRO</td>
+                <td class="numero">17 219 679</td>
+                <td class="porcentagem">8,10%</td>
+            </tr>
+            
+            <tr>
+                <td id="bh">BAHIA</td>
+                <td class="numero">14 850 513</td>
+                <td class="porcentagem">6,99%</td>
+            </tr>
+
+            <tr>
+                <td id="es">ESPIRITO SANTO</td>
+                <td class="numero">16 567 678</td>
+                <td class="porcentagem">7,87%</td>
+            </tr>
+
+            <tr>
+                <td id="POA">PORTO ALEGRE</td>
+                <td class="numero">89 123 460</td>
+                <td class="porcentagem">29,8%</td>
+            </tr>
+
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>TOTAL</th>
+                <th class="numero">212 583 750</th>
+                <th class="porcentagem">100%</th>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
