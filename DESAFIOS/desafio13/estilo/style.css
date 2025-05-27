@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+td, th {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    background-color: white;
+}
+
+thead th {
+    background-color: gray;
+    color: white;
+}
+
+tbody  th {
+    text-align: left;
+    background-color: gray;
+    color: white;
+}
+
+th.materia {
+    background-color: white;
+    color: black;
+    font-weight: normal;
+    text-align: left;
+}
+
+th.tipo {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+td.med {
+    background-color: gray;
+    color: white;
+    font-weight: bolder;
+}
+
+table {
+    border-collapse: collapse;
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    margin-top: 150px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.444);
+}
+
+body {
+    background-color: rgba(89, 89, 89, 0.612);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.407);
+}
