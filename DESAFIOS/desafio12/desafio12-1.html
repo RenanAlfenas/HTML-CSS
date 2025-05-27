@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio de tabela</title>
+
+    <style>
+        td, th {
+            border: 2px solid black;
+            text-align: center;
+        }
+
+        table#primeira, table#segunda {
+            width: 400px;
+            height: 200px;
+            border-collapse: collapse;
+        }
+
+        table#segunda {
+            margin-top: 50px;
+        }
+
+         table#terceira {
+            margin-top: 50px;
+            width: 1500px;
+            height: 300px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        thead {
+            background-color: rgba(133, 133, 133, 0.493);  
+        }
+
+        table#terceira > thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgba(133, 133, 133, 0.493);
+        }
+
+        tbody {
+            font-weight: normal;
+        }
+
+        th {
+            height: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <table id="primeira">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+        
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+
+        <tr>
+            <td colspan="3">8</td>
+            <td>9</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            <td>12</td>
+        </tr>
+
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+
+    <table id="segunda">
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+
+          <tr>
+            <td rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+           
+        </tr>
+
+          <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+
+        </tr>
+
+          <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+
+        </tr>
+
+          <tr>
+            <td colspan="4">N</td>
+        </tr>
+    </table>
+
+
+
+    <table id="terceira">
+        <thead >
+            <tr>
+                <th rowspan="2">....</th>
+                <th rowspan="2">UNIDADE FEDERATIVA</th>
+                <th colspan="2">POPULAÇÃO</th>
+                <th colspan="2">VARIAÇÃO (2010 - 2023) </th>
+                <th rowspan="2">% DO TOTAL (2024)</th>
+                <th rowspan="2">PAÍS COMPARÁVEL (habitantes)</th>
+            </tr>
+
+            <tr>
+
+                <th>2024 (est.)</th>
+                <th>2022</th>
+                <th>%</th>
+                <th>abs.</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>SÃO PAULO</td>
+                <td>45 973 194</td>
+                <td>44 411 238</td>
+                <td>7,63%</td>
+                <td>3 149 039</td>
+                <td>21,63%</td>
+                <td>Iraque (46 042 015)</td>
+
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td>21 322 691</td>
+                <td>20 539 989</td>
+                <td>4,81%</td>
+                <td>942 659</td>
+                <td>10,03%</td>
+                <td>Zâmbia (21 314 956)</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td>17 219 679</td>
+                <td>16 055 174</td>
+                <td>0,41%</td>
+                <td>65 245</td>
+                <td>8,10%</td>
+                <td>Camboja (17 638 801)</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td>14 850 513</td>
+                <td>14 141 626</td>
+                <td>0,89%</td>
+                <td>124 720</td>
+                <td>6,99%</td>
+                <td>Guiné (14 754 785)</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Rio Grande do Sul</td>
+                <td>11 229 915</td>
+                <td>10 882 965</td>
+                <td>1,77%</td>
+                <td>189 036</td>
+                <td>5,28%</td>
+                <td>República Dominicana (11 427 557)</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            
+        </tfoot>
+    </table>
+    
+</body>
+</html>
