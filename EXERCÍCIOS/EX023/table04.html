@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela 4</title>
+
+    <style>
+        td, th {
+            border: 2px solid black;
+            text-align: center;
+            height: 80px;
+        }
+
+    table {
+            width: 500px;
+            height: 300px;
+            border-collapse: collapse;
+            margin: 20px 
+        }
+
+        col.genero {
+            background-color: bisque;
+        }
+
+        col.idade {
+            background-color: aquamarine;
+        }
+
+        td.familia {
+            vertical-align: bottom;
+            color: blueviolet;
+        }
+
+        div#tabela {
+            overflow-x: auto;
+            overflow-y: auto;
+            height: 50vh;
+            width: 50vh;
+            background-color: rgb(116, 112, 112);
+            border-radius: 10px;
+            margin:auto;
+        }
+
+        P {
+            width: 500px;
+        }
+
+
+        div#tabela > table > tr > th {
+            position: sticky;
+            top: -1px;
+        }
+    </style>
+</head>
+<body>
+    <h1>TABELA RESPONSIVA</h1>
+
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos illo quasi, sint animi ea harum sapiente praesentium esse? Adipisci velit eum assumenda obcaecati minima, inventore delectus. Earum ipsa accusantium praesentium.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quam molestias illo eaque, veniam possimus eius. Eum voluptatem nemo ad enim, iusto quo assumenda facilis libero? Quam ex facilis cumque!</P>
+
+    <div id="tabela">
+        <table>
+            <colgroup>
+                <col class="familia">
+                <col class="idade">
+                <col class="genero">
+                <col class="familia">
+                <col class="idade">
+                <col class="genero">
+                <col class="familia">
+                <col class="idade">
+                <col class="genero">
+                <col class="familia">
+                <col class="idade">
+                <col class="genero">
+                <col class="familia">
+                <col class="idade">
+                <col class="genero">
+            </colgroup>
+            <caption>tabela de cadastros</caption>
+            <tr>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+            </tr>
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+            </tr>
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+            </tr>
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+            </tr>
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+            </tr>
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+            </tr>
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+                <th scope="col">família</th>
+                <th scope="col">idade</th>
+                <th scope="col">genero</th>
+                <th scope="col">nome</th>
+            </tr>
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+            </tr>
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            <tr>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>
+                <td class="familia">Rodrigues</td>
+                <td>20 anos</td>
+                <td>masculino</td>
+                <td>andré</td>    
+            </tr>
+
+            
+        </table>
+    </div>
+    
+</body>
+</html>
