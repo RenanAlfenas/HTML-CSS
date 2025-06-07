@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>preencha os dados a baixo</h1>
+
+    <form action="" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="idnome">
+                    Nome: <input type="text" name="Nome" id="idnome" required minlength="5" maxlength="30" size="30" placeholder="insira seu nome todo" autocomplete="name">
+                </label>
+            </p>
+
+            <p>
+                <label for="idendereço">
+                    Endereço: <input type="text" name="endereço" id="idendereço" required minlength="5" maxlength="40" size="40" placeholder="EX: rua jorge aragão, 458, olaria" autocomplete="address-level3">
+                </label>
+            </p>
+
+            <p>
+                <label for="idgenero">
+                    Gênero: <input type="text" name="genero" id="idgenero" required maxlength="10" minlength="7" autocomplete="sex" >
+                </label>
+            </p>
+
+            <p>
+                <label for="idtel">
+                    Telefone: <input type="tel" name="tel" id="idtel" required pattern="^\(\d{2})\d{4,5}-\d{4}$" placeholder="(xx) xxxxx-xxxx" autocomplete="tel">
+                </label>
+            </p>
+
+
+            <p>
+                <label for="idemail">
+                    Email: <input type="email" name="email" id="idemail" required autocomplete="email">
+                </label>
+            </p>
+        </fieldset> <br>
+
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+    </form>
+    
+</body>
+</html>
