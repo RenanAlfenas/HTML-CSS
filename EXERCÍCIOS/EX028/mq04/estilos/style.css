@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+/* ESTILO MOBILE FIRST */
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2em;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background: black url("../imagens/back-phone.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.815);
+    width: 50vw;
+    border-radius: 15px;
+    margin: auto;
+    padding: 10px;
+}
+
+h1 {
+    color: aliceblue;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+    text-align: center;
+    font-size: 0.9em;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+
+img#phone {
+    display: block;
+}
+
+img#pc {
+    display: none;
+}
+
+img#print {
+    display: none;
+}
+
+img#tablet {
+    display: none;
+}
+
+img#tv {
+    display: none;
+}
