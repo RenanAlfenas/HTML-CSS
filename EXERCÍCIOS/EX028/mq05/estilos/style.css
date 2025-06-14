@@ -37,7 +37,8 @@ menu a {
 }
 
 menu a:hover {
-    background-color: rgb(150, 210, 245);
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
 article {
@@ -63,4 +64,22 @@ article p{
     text-indent: 40px;
     font-size: 0.8em;
     line-height: 25px;
+}
+
+span#hamburger{
+    display: block;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+span#hamburger:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+ul#itens {
+    display: none;
 }
