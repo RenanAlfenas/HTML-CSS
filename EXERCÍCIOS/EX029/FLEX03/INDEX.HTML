@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        main.pai {
+            background-color: aqua;
+            display: flex;
+            height: 200px;
+            flex-flow: row wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        
+        }
+
+        section.filho {
+            background-color: bisque;
+            border: 1px solid black;
+            align-self: auto;
+            flex-basis: 200px;
+            text-align: center;
+            
+
+        }
+
+
+        
+    </style>
+</head>
+<body>
+
+    <main class="pai">
+        <section class="filho">conteúdo 1 conteudo</section>
+        <section class="filho">conteúdo 2</section>
+        <section class="filho">conteúdo 3</section>
+        <section class="filho">conteúdo 4</section>
+        <section class="filho">conteúdo 5</section>
+        
+    </main>
+    
+</body> 
+</html>
