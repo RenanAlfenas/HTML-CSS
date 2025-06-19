@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+*{ margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    width: 100vw;
+    background-color: rgb(209, 209, 209);
+}
+
+header {
+    background-color: rgb(158, 158, 158);
+    padding: 10px;
+    
+    display: flex;
+    flex-flow: row wrap;
+}
+
+h1 {
+    color: white;
+    font-size: 2em;
+    padding-left: 2px;
+    padding-bottom: 5px;
+    margin: auto;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.651);
+}
+
+section#menu {
+    flex-basis: 100vw;
+}
+
+section#menu a {
+    background-color: grey;
+    border: 1px solid rgb(41, 41, 41);
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+section#menu a:hover {
+    background-color: rgb(212, 212, 212);
+    text-shadow: 5px 3px 10px rgba(0, 0, 0, 0.808);
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+
+main {
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    background-color: white;
+    width: 300px;
+    height: 50vh;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+h2 {
+    padding: 10px;
+}
+
+article p {
+    padding: 10px;
+    text-indent: 35px;
+    font-size: 0.8em;
+
+}
