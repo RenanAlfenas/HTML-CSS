@@ -7,63 +7,92 @@
 }
 
 body {
-    width: 100vw;
+    width: 99vw;
     height: 100vh;
 }
 
 h1 {
-    padding: 10px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
-p {
-    padding: 10px;
-    padding-left: 20px;
+header p {
     width: 90vw;
+    margin-left: 20px;
+    text-align: justify;
 }
 
 h2 {
     padding-left: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 section {
     display: flex;
     background-color: rgb(156, 153, 153);
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    align-content: flex-start;
+    flex-flow: column nowrap;
 }
 
-div#imagem {
-    flex-flow: row wrap;
+section#imagem {
     display: flex;
-    width: 90vw;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+
+}
+
+div#img-p {
+    text-align: justify;
+    padding: 20px;
+    flex: 1 0 50vw;
+    margin: 10px;
+}
+
+div#img-img{  
+    flex: 1 1 50vw;
+}
+
+div#img-img img {
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+}
+
+section#video {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+div#video-p {
+    text-align: justify;
+    flex: 1 0 50vw;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid green;
     
 }
 
-div#imagem p {
-    flex-basis: 1000px;
-
+div#video-video {
+    border: 1px solid red;
+    padding-top: 10px;
+    flex: 1 0 50vw;
+    align-self: center;
 }
 
-div#imagem img {
-   margin: auto;
-   padding-top: 20px;
-
+div#video-video iframe {
+    display: block;
+    width: 40vw;
+    height: 300px;
+    margin: auto;
 }
 
-div#video {
-    flex-flow: row wrap;
-    display: flex;
-    justify-content: flex-start;
+footer p {
     width: 90vw;
+    margin-left: 20px;
+    padding-bottom: 100px;
 }
-
-div#video p {
-    flex-basis: 1000px;
-    
-}
-
-
 
 
