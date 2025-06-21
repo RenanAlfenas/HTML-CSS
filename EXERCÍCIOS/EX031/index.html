@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        div.pai {
+            border: 1px solid black;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-template-rows: 50px 50px 50px;
+            margin: 20px;
+            justify-content: space-between;
+            align-content: space-between;
+            height: 500px;
+            
+        }
+
+        div.filho {
+            border: 1px solid red;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <h1>eu estou criando uma grid com 4 colunas e 3 linhas</h1>
+
+    <div class="pai">
+        <div class="filho">A</div>
+        <div class="filho">B</div>
+        <div class="filho">C</div>
+        <div class="filho">D</div>
+        <div class="filho">E</div>
+        <div class="filho">F</div>
+        <div class="filho">G</div>
+        <div class="filho">H</div>
+        <div class="filho">I</div>
+        <div class="filho">J</div>
+        <div class="filho">K</div>
+        <div class="filho">L</div>
+    </div>
+</body>
+</html>
