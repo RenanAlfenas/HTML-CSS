@@ -10,52 +10,60 @@
             padding: 0px;
 
         }
-        body {
-            display: grid;
-            grid-template-rows: repeat(14, auto);
-            grid-template-columns: repeat (8, auto);
-            grid-auto-flow: column;
-            width: 100vw;
-            height: 100vh;
-            text-align: center;
-        }
+       body {
+        display: grid;
+        grid-template-columns: 80vw 20vw;
+        grid-template-rows: 200px 30px auto 20px 20px;
+        height: 100vh;
+        grid-auto-flow: column;
+        text-align: center;
+       }
 
-        header {
-            background-color: grey;
-            padding: 10px;
-            grid-area: 1/1/3/16;
-            background-image: url("fonte\ do\ site.png");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: bottom center;
-            font-size: 2em;
-        }
+       header {
+        background-color: rgb(145, 144, 144);
+        grid-area: 1/1/2/3;
+       }
 
-        nav {
-            background-color: rgb(170, 170, 170);
-            grid-area: 3/1/4/16;
-        }
+       nav {
+        background-color: rgb(190, 190, 190);
+        grid-area: 2/1/3/3;
+       }
 
-        main{
-            background-color: bisque;
-            grid-area: 4/1/14/14;
-        }
+       main {
+        background-color: blanchedalmond;
+        grid-area: 3/1/4/2;
+       }
 
-        section {
-            background-color: chocolate;
-            grid-area: 4/14/14/16;
-        }
+       section {
+        background-color: azure;
+        grid-area: 3/2/4/3;
+       }
 
-        footer {
-            background-color: grey;
-            grid-area: 14/1/15/16;
-        }
+       footer {
+        background-color: gray;
+        grid-area: 4/1/6/3;
+       }
+
+       p {
+        padding: 20px;
+        text-align: justify;
+        text-indent: 50px;
+       }
+
+       header p {
+        text-decoration: underline;
+        text-shadow: 1px 1px 20px white;
+        padding-top: 10px;
+       }
     </style>
 </head>
 <body>
 
     <header>
         <h1>topo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perspiciatis aperiam neque a earum minima inventore fugiat mollitia? Ex iure officiis nesciunt rem. Quia velit tempore animi totam iusto aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore veritatis unde impedit quam excepturi expedita iure officiis, earum, quod minus quisquam. Quo dolorem eligendi provident et dolores, asperiores nihil.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor perspiciatis aperiam neque a earum minima inventore fugiat mollitia? Ex iure officiis nesciunt rem. Quia velit tempore animi totam iusto aliquid. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore veritatis unde impedit quam excepturi expedita iure officiis, earum, quod minus quisquam. Quo dolorem eligendi provident et dolores, asperiores nihil.</p>
     </header>
 
     <nav>
@@ -64,6 +72,9 @@
 
     <main>
         <h1>principal</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur aspernatur, eligendi reiciendis commodi id esse ducimus? Quaerat molestiae fugit ratione pariatur nostrum error, aliquam eaque esse delectus. Repellendus, provident eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam consequuntur fugiat officia sit dignissimos, ut eius ea excepturi blanditiis modi impedit at, facere amet adipisci quibusdam. Autem, rerum hic.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae repudiandae aut delectus at facere magni vero veniam incidunt! Tempora autem, nisi possimus aliquid rerum distinctio vero aperiam eligendi accusantium! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis quia unde est quidem vero quae a minus perspiciatis et saepe reiciendis iure laborum dolores praesentium, quis modi? Officia, reiciendis sunt!</p>
         
     </main>
 
